@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dashboard | Climate Intelligence</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+<i class="fas fa-temperature-high"></i>
+
+Climate Intelligence
+
+</div>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="dashboard.html" class="active">Dashboard</a></li>
+
+<li><a href="precautions.html">Precautions</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="page-header">
+
+<h1>Heatwave Monitoring Dashboard</h1>
+
+<p>Real-Time Weather Analytics</p>
+
+</section>
+
+
+<section class="dashboard">
+
+<div class="dashboard-card">
+
+<i class="fas fa-temperature-full"></i>
+
+<h2>Temperature</h2>
+
+<h1>42°C</h1>
+
+</div>
+
+<div class="dashboard-card">
+
+<i class="fas fa-droplet"></i>
+
+<h2>Humidity</h2>
+
+<h1>38%</h1>
+
+</div>
+
+<div class="dashboard-card">
+
+<i class="fas fa-wind"></i>
+
+<h2>Wind Speed</h2>
+
+<h1>18 km/h</h1>
+
+</div>
+
+<div class="dashboard-card">
+
+<i class="fas fa-sun"></i>
+
+<h2>UV Index</h2>
+
+<h1>10</h1>
+
+</div>
+
+</section>
+
+
+<section class="chart-section">
+
+<h2>Weekly Temperature Analysis</h2>
+
+<canvas id="tempChart"></canvas>
+
+</section>
+
+
+<section class="heatmap">
+
+<h2>Heatwave Risk Map</h2>
+
+<img src="images/india-map.jpeg" alt="India Heat Map">
+
+</section>
+
+
+<section class="status-table">
+
+<h2>Today's City Status</h2>
+
+<table>
+
+<tr>
+
+<th>City</th>
+
+<th>Temperature</th>
+
+<th>Risk</th>
+
+</tr>
+
+<tr>
+
+<td>Mumbai</td>
+
+<td>38°C</td>
+
+<td>Moderate</td>
+
+</tr>
+
+<tr>
+
+<td>Delhi</td>
+
+<td>45°C</td>
+
+<td>Extreme</td>
+
+</tr>
+
+<tr>
+
+<td>Nagpur</td>
+
+<td>43°C</td>
+
+<td>High</td>
+
+</tr>
+
+<tr>
+
+<td>Ahmedabad</td>
+
+<td>44°C</td>
+
+<td>High</td>
+
+</tr>
+
+<tr>
+
+<td>Hyderabad</td>
+
+<td>41°C</td>
+
+<td>Moderate</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 Climate Intelligence
+
+</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
