@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="/Heatwave-website/sitemap.xsl"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://siddheshbhondwe-stack.github.io/Heatwave-website/</loc>
+    </url>
+
+    <url>
+        <loc>https://siddheshbhondwe-stack.github.io/Heatwave-website/about.html</loc>
+    </url>
+
+    <url>
+        <loc>https://siddheshbhondwe-stack.github.io/Heatwave-website/dashboard.html</loc>
+    </url>
+
+    <url>
+        <loc>https://siddheshbhondwe-stack.github.io/Heatwave-website/precautions.html</loc>
+    </url>
+
+    <url>
+        <loc>https://siddheshbhondwe-stack.github.io/Heatwave-website/contact.html</loc>
+    </url>
+
+</urlset>
