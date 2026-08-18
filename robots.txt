@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://siddheshbhondwe-stack.github.io/Heatwave-website/sitemap.xml
